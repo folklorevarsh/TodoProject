@@ -43,10 +43,10 @@ export default function App() {
         ];
       });
     } else {
-      Alert.alert('A little hiccup!', 'Your Todo must be over 5 characters long. Please try again', [
-        {text: 'Understood', onPress: () => console.log('alert closed') }
+      Alert.alert('A little hiccup!', 'Your ToDo must be over 5 characters long. Please try again', [
+        {text: 'Understood', onPress: () => console.log('alert closed'), style: 'cancel' }
       ]);
-    }
+        }
   };
 
   return (
