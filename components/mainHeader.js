@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function Header() {
   return (
     <View style={styles.header}>
-      <Text style={[styles.title, { textAlign: 'left',color: 'white' }]}>My ToDo List</Text>
+      <Text style={[styles.title, { textAlign: 'center',color: 'white' }]}>My ToDo List</Text>
       <Text style={{textAlign: 'center', color: 'white',  }}>This application was made by Srivarshini</Text>
     </View>
   );
