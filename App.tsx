@@ -19,7 +19,7 @@ export default function App() {
 
   const submitItem = (text: string) => {
     if(text.length > 5){
-      setMessage('');
+      setText('');
       setTodoItem(oldTodoItem => {
         return [
           { text, key: Math.random().toString() },
