@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
   },
   title: {
     textAlign: 'center',
-    fontSize: 25,
+    fontSize: 30,
     fontWeight: 'bold',
   }
 });
