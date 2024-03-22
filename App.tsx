@@ -17,6 +17,22 @@ export default function App() {
     });
   };
 
+  const styles = StyleSheet.create({
+    list: {
+      marginTop: 25,
+    },
+    container: {
+      flex: 1,
+      backgroundColor: '#F7C3E4', // change the background color to a dark color
+      borderWidth: 5, // add a border
+      borderColor: '#B6428A', // set the border color
+    },
+    content: {
+      padding: 50,
+      
+    },
+  })
+
   const submitItem = (text: string) => {
     if(text.length > 5){
       setText('');
@@ -52,17 +68,3 @@ export default function App() {
     </TouchableWithoutFeedback>
   );
 }
-
-const styles = StyleSheet.create({
-  list: {
-    marginTop: 25,
-  },
-  container: {
-    flex: 1,
-    backgroundColor: '#F7C3E4', // change the background color to a dark color
-  },
-  content: {
-    padding: 50,
-  },
-
-});
