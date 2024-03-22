@@ -12,7 +12,7 @@ export default function TodoItem({ pressItem, item }) {
 const styles = StyleSheet.create({
   item: {
     padding: 16,
-    marginTop: 16,
+    marginTop: 18,
     borderColor: '#E572BA',
     borderWidth: 3,
     borderStyle: "solid", // Change border style to "solid"
