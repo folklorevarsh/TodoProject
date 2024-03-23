@@ -16,7 +16,7 @@ export default function AddTodo({ submitItem }) {
         onChangeText={changeItem} 
         value={text} 
       />
-      <Button color='#E572BA' onPress={() => submitItem(text)} title='Add your ToDo' />
+      <Button color='#E572BA' onPress={() => submitItem(text)} title='Add New ToDo' />
     </View>
   );
 }
